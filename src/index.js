@@ -1,12 +1,21 @@
-import "./styles.css";
+// const obj = { name: "Go", age: 28, tall: 160 };
 
-console.log("Test2");
+// const { age, name, tall } = obj;
 
-document.getElementById("app").innerHTML = `
-<h1>Hello Vanilla!</h1>
-<div>
-  We use the same configuration as Parcel to bundle this sandbox, you can find more
-  info about Parcel 
-  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
-</div>
-`;
+// console.log(name);
+// console.log(age);
+// console.log(tall);
+
+// let a = 10, b = 20;
+// [a, b] = [b, a];
+// console.log(a);
+// console.log(b);
+
+const fn = (x, y, z) => {
+  console.log(x);
+  console.log(y);
+  console.log(z);
+};
+
+const arr = [1, 2, 3];
+fn(...arr);
