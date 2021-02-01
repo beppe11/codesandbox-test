@@ -6,15 +6,11 @@
 // console.log(age);
 // console.log(tall);
 
-// const { age: a, name: n, tall: t } = obj;
-// console.log(a);
-// console.log(n);
-// console.log(t);
-
 // let a = 10, b = 20;
 // [a, b] = [b, a];
 // console.log(a);
 // console.log(b);
+// console.log(t);
 
 // const fn = (x, y, z) => {
 //   console.log(x);
@@ -28,6 +24,11 @@
 /**
  * map
  */
-const nameArr = ["Yamada", "Tanaka", "Iwamoto"];
-const nameArr2 = nameArr.map((name) => `name: ${name}`);
-nameArr2.map((name) => console.log(name));
+// const nameArr = ["Yamada", "Tanaka", "Iwamoto"];
+// const nameArr2 = nameArr.map((name) => `name: ${name}`);
+
+const flag = 0 || 0 || "Yeah" || 2;
+console.log(flag);
+
+const flag2 = 1 && 1 && null && 2;
+console.log(flag2);
